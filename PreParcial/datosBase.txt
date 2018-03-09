@@ -1,0 +1,17 @@
+utilizar comando sin las comillas dobles: "mongo"
+utilizar comando sin las comillas dobles: "use carroinfo"
+
+
+// reviews //
+Para llenar la coleccion de reviews ejecutar las siguientes lineas en la consola de mongo:
+db.reviews.insert({"id":"1","idcarro":"1","puntuacion":"4"})
+db.reviews.insert({"id":"2","idcarro":"1","puntuacion":"5"})
+db.reviews.insert({"id":"3","idcarro":"1","puntuacion":"5"})
+db.reviews.insert({"id":"4","idcarro":"1","puntuacion":"4"})
+db.reviews.insert({"id":"5","idcarro":"1","puntuacion":"5"})
+db.reviews.insert({"id":"6","idcarro":"2","puntuacion":"5"})
+db.reviews.insert({"id":"7","idcarro":"2","puntuacion":"5"})
+db.reviews.insert({"id":"8","idcarro":"2","puntuacion":"5"})
+db.reviews.insert({"id":"9","idcarro":"3","puntuacion":"4"})
+db.reviews.insert({"id":"10","idcarro":"3","puntuacion":"5"})
+db.reviews.insert({"id":"11","idcarro":"3","puntuacion":"5"})
